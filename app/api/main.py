@@ -3,7 +3,7 @@ from app.models.task_models import TaskEvaluationRequest, TaskEvaluationList
 from app.services.task_evaluator import TaskEvaluator
 
 app = FastAPI(
-    title="Task Load Estimation API",
+    title="Task load estimation API",
     description="API for estimating cognitive load of tasks based on keyword analysis",
     version="1.0.0"
 )
